@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC00758322263E9700038F9F /* BlankView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC00758222263E9700038F9F /* BlankView.m */; };
+		DC0075862226575F00038F9F /* RetryView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0075852226575F00038F9F /* RetryView.m */; };
+		DC42C7DC2229308200562909 /* UIImage+Ketang.m in Sources */ = {isa = PBXBuildFile; fileRef = DC42C7DB2229308200562909 /* UIImage+Ketang.m */; };
+		DC4E0C61221E8E03003E11CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4E0C60221E8E03003E11CE /* AppDelegate.m */; };
+		DC4E0C6A221E8E03003E11CE /* MyNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC4E0C68221E8E03003E11CE /* MyNote.xcdatamodeld */; };
+		DC4E0C6C221E8E05003E11CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4E0C6B221E8E05003E11CE /* Assets.xcassets */; };
+		DC4E0C6F221E8E05003E11CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4E0C6D221E8E05003E11CE /* LaunchScreen.storyboard */; };
+		DC4E0C72221E8E05003E11CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4E0C71221E8E05003E11CE /* main.m */; };
+		DC4E0C7A221EA3B0003E11CE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4E0C79221EA3B0003E11CE /* BaseViewController.m */; };
+		DC4E0C7D221EA533003E11CE /* MomentsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4E0C7C221EA533003E11CE /* MomentsListViewController.m */; };
+		DC4E0C80221EA550003E11CE /* MomentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4E0C7F221EA550003E11CE /* MomentDetailViewController.m */; };
+		DC4EC434221FCEB900C99CA6 /* MomentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4EC433221FCEB900C99CA6 /* MomentCell.m */; };
+		DC4EC437221FF99100C99CA6 /* KetangPersistentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4EC436221FF99100C99CA6 /* KetangPersistentManager.m */; };
+		DC588F15222393500069F0D1 /* PostMomentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC588F14222393500069F0D1 /* PostMomentViewController.m */; };
+		DC588F1822239B8D0069F0D1 /* KetangUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DC588F1722239B8D0069F0D1 /* KetangUtility.m */; };
+		DCA37CE12227D8790061ECA4 /* UIButton+Ketang.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA37CE02227D8790061ECA4 /* UIButton+Ketang.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC00758122263E9700038F9F /* BlankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlankView.h; sourceTree = "<group>"; };
+		DC00758222263E9700038F9F /* BlankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlankView.m; sourceTree = "<group>"; };
+		DC0075842226575F00038F9F /* RetryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetryView.h; sourceTree = "<group>"; };
+		DC0075852226575F00038F9F /* RetryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetryView.m; sourceTree = "<group>"; };
+		DC42C7DA2229308200562909 /* UIImage+Ketang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ketang.h"; sourceTree = "<group>"; };
+		DC42C7DB2229308200562909 /* UIImage+Ketang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ketang.m"; sourceTree = "<group>"; };
+		DC4E0C5C221E8E03003E11CE /* MyNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4E0C5F221E8E03003E11CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC4E0C60221E8E03003E11CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC4E0C69221E8E03003E11CE /* MyNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyNote.xcdatamodel; sourceTree = "<group>"; };
+		DC4E0C6B221E8E05003E11CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4E0C6E221E8E05003E11CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC4E0C70221E8E05003E11CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4E0C71221E8E05003E11CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC4E0C78221EA3B0003E11CE /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DC4E0C79221EA3B0003E11CE /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DC4E0C7B221EA533003E11CE /* MomentsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentsListViewController.h; sourceTree = "<group>"; };
+		DC4E0C7C221EA533003E11CE /* MomentsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentsListViewController.m; sourceTree = "<group>"; };
+		DC4E0C7E221EA550003E11CE /* MomentDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentDetailViewController.h; sourceTree = "<group>"; };
+		DC4E0C7F221EA550003E11CE /* MomentDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentDetailViewController.m; sourceTree = "<group>"; };
+		DC4EC432221FCEB900C99CA6 /* MomentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MomentCell.h; sourceTree = "<group>"; };
+		DC4EC433221FCEB900C99CA6 /* MomentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomentCell.m; sourceTree = "<group>"; };
+		DC4EC435221FF99100C99CA6 /* KetangPersistentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KetangPersistentManager.h; sourceTree = "<group>"; };
+		DC4EC436221FF99100C99CA6 /* KetangPersistentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KetangPersistentManager.m; sourceTree = "<group>"; };
+		DC588F13222393500069F0D1 /* PostMomentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostMomentViewController.h; sourceTree = "<group>"; };
+		DC588F14222393500069F0D1 /* PostMomentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostMomentViewController.m; sourceTree = "<group>"; };
+		DC588F1622239B8D0069F0D1 /* KetangUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KetangUtility.h; sourceTree = "<group>"; };
+		DC588F1722239B8D0069F0D1 /* KetangUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KetangUtility.m; sourceTree = "<group>"; };
+		DCA37CDF2227D8790061ECA4 /* UIButton+Ketang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Ketang.h"; sourceTree = "<group>"; };
+		DCA37CE02227D8790061ECA4 /* UIButton+Ketang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Ketang.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4E0C59221E8E03003E11CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4E0C53221E8E03003E11CE = {
+			isa = PBXGroup;
+			children = (
+				DC4E0C5E221E8E03003E11CE /* MyNote */,
+				DC4E0C5D221E8E03003E11CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4E0C5D221E8E03003E11CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4E0C5C221E8E03003E11CE /* MyNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4E0C5E221E8E03003E11CE /* MyNote */ = {
+			isa = PBXGroup;
+			children = (
+				DC4E0C5F221E8E03003E11CE /* AppDelegate.h */,
+				DC4E0C60221E8E03003E11CE /* AppDelegate.m */,
+				DC4E0C7B221EA533003E11CE /* MomentsListViewController.h */,
+				DC4E0C7C221EA533003E11CE /* MomentsListViewController.m */,
+				DC00758122263E9700038F9F /* BlankView.h */,
+				DC00758222263E9700038F9F /* BlankView.m */,
+				DC0075842226575F00038F9F /* RetryView.h */,
+				DC0075852226575F00038F9F /* RetryView.m */,
+				DC588F13222393500069F0D1 /* PostMomentViewController.h */,
+				DC588F14222393500069F0D1 /* PostMomentViewController.m */,
+				DC588F1622239B8D0069F0D1 /* KetangUtility.h */,
+				DC588F1722239B8D0069F0D1 /* KetangUtility.m */,
+				DC4EC432221FCEB900C99CA6 /* MomentCell.h */,
+				DC4EC433221FCEB900C99CA6 /* MomentCell.m */,
+				DC4E0C7E221EA550003E11CE /* MomentDetailViewController.h */,
+				DC4E0C7F221EA550003E11CE /* MomentDetailViewController.m */,
+				DC42C7DA2229308200562909 /* UIImage+Ketang.h */,
+				DC42C7DB2229308200562909 /* UIImage+Ketang.m */,
+				DC4EC435221FF99100C99CA6 /* KetangPersistentManager.h */,
+				DC4EC436221FF99100C99CA6 /* KetangPersistentManager.m */,
+				DC4E0C78221EA3B0003E11CE /* BaseViewController.h */,
+				DC4E0C79221EA3B0003E11CE /* BaseViewController.m */,
+				DCA37CDF2227D8790061ECA4 /* UIButton+Ketang.h */,
+				DCA37CE02227D8790061ECA4 /* UIButton+Ketang.m */,
+				DC4E0C6B221E8E05003E11CE /* Assets.xcassets */,
+				DC4E0C6D221E8E05003E11CE /* LaunchScreen.storyboard */,
+				DC4E0C70221E8E05003E11CE /* Info.plist */,
+				DC4E0C71221E8E05003E11CE /* main.m */,
+				DC4E0C68221E8E03003E11CE /* MyNote.xcdatamodeld */,
+			);
+			path = MyNote;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4E0C5B221E8E03003E11CE /* MyNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4E0C75221E8E05003E11CE /* Build configuration list for PBXNativeTarget "MyNote" */;
+			buildPhases = (
+				DC4E0C58221E8E03003E11CE /* Sources */,
+				DC4E0C59221E8E03003E11CE /* Frameworks */,
+				DC4E0C5A221E8E03003E11CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNote;
+			productName = MyNote;
+			productReference = DC4E0C5C221E8E03003E11CE /* MyNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4E0C54221E8E03003E11CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = yangjing;
+				TargetAttributes = {
+					DC4E0C5B221E8E03003E11CE = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DC4E0C57221E8E03003E11CE /* Build configuration list for PBXProject "MyNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4E0C53221E8E03003E11CE;
+			productRefGroup = DC4E0C5D221E8E03003E11CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4E0C5B221E8E03003E11CE /* MyNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4E0C5A221E8E03003E11CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4E0C6F221E8E05003E11CE /* LaunchScreen.storyboard in Resources */,
+				DC4E0C6C221E8E05003E11CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4E0C58221E8E03003E11CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4E0C6A221E8E03003E11CE /* MyNote.xcdatamodeld in Sources */,
+				DC4E0C7A221EA3B0003E11CE /* BaseViewController.m in Sources */,
+				DC4E0C7D221EA533003E11CE /* MomentsListViewController.m in Sources */,
+				DC4E0C72221E8E05003E11CE /* main.m in Sources */,
+				DC588F1822239B8D0069F0D1 /* KetangUtility.m in Sources */,
+				DC00758322263E9700038F9F /* BlankView.m in Sources */,
+				DC4E0C61221E8E03003E11CE /* AppDelegate.m in Sources */,
+				DC0075862226575F00038F9F /* RetryView.m in Sources */,
+				DC4EC437221FF99100C99CA6 /* KetangPersistentManager.m in Sources */,
+				DC42C7DC2229308200562909 /* UIImage+Ketang.m in Sources */,
+				DCA37CE12227D8790061ECA4 /* UIButton+Ketang.m in Sources */,
+				DC4E0C80221EA550003E11CE /* MomentDetailViewController.m in Sources */,
+				DC588F15222393500069F0D1 /* PostMomentViewController.m in Sources */,
+				DC4EC434221FCEB900C99CA6 /* MomentCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC4E0C6D221E8E05003E11CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4E0C6E221E8E05003E11CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4E0C73221E8E05003E11CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC4E0C74221E8E05003E11CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4E0C76221E8E05003E11CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CLLJBLFA9;
+				INFOPLIST_FILE = MyNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC4E0C77221E8E05003E11CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CLLJBLFA9;
+				INFOPLIST_FILE = MyNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4E0C57221E8E03003E11CE /* Build configuration list for PBXProject "MyNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4E0C73221E8E05003E11CE /* Debug */,
+				DC4E0C74221E8E05003E11CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4E0C75221E8E05003E11CE /* Build configuration list for PBXNativeTarget "MyNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4E0C76221E8E05003E11CE /* Debug */,
+				DC4E0C77221E8E05003E11CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC4E0C68221E8E03003E11CE /* MyNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC4E0C69221E8E03003E11CE /* MyNote.xcdatamodel */,
+			);
+			currentVersion = DC4E0C69221E8E03003E11CE /* MyNote.xcdatamodel */;
+			path = MyNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC4E0C54221E8E03003E11CE /* Project object */;
+}
